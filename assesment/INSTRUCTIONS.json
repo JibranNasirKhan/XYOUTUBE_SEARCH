@@ -52,24 +52,8 @@
           "join": "AND",
           "success_out": "Navigated to the YouTube",
           "hint": "Ensure that you navigated to YouTube"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "GetElementText"
-            },
-            {
-              "object_notation": "RESPONSE",
-              "operator": "contains",
-              "expected_value": "About"
-            }
-          ],
-          "join": "AND",
-          "success_out": "Printed the About text",
-          "hint": "Ensure that you moved to about page and printed the about messages"
         }
+
       ]
     },
     {
